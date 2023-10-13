@@ -1,11 +1,3 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>
-      Tab 2
-    </ion-title>
-  </ion-toolbar>
-</ion-header>
-
 <ion-content [fullscreen]="true">
   <ion-header collapse="condense">
     <ion-toolbar>
@@ -13,5 +5,18 @@
     </ion-toolbar>
   </ion-header>
 
-  <app-explore-container name="Tab 2 page"></app-explore-container>
+  <ion-button (click)="organizarObjetos()">Default</ion-button>
+
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>Oi</ion-card-title>
+      <ion-card-subtitle>ultima senha criada</ion-card-subtitle>
+    </ion-card-header>
+  </ion-card>
+
+  <h1>
+    Ultimas senhas chamadas:
+  </h1>
+
+
 </ion-content>
