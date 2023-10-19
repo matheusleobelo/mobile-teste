@@ -27,7 +27,7 @@ export class Tab2Page {
 
     const objetosOrganizados: ObjetoCriado[] = objetosPrioridade.concat(objetosExames, objetosGeral);
 
-    // Agora, você pode usar objetosOrganizados como desejar, seja exibindo na tela ou realizando outras operações
+    // pronto Agora, você pode usar objetosOrganizados como desejar, seja exibindo na tela ou realizando outras operações
     console.log('Objetos organizados:', objetosOrganizados);
   }
 }
